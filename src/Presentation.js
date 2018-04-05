@@ -21,7 +21,7 @@ export default class Presentation extends Component {
         const {location: {pathname}, setSlide} = this.props;
         const slide = parseInt(pathname.substr(pathname.indexOf('/slides/') + 8), 10);
 
-        setSlide(slide);
+        setSlide(slide || 0);
     }
 
     handleKeyPress = (keyName) => {
