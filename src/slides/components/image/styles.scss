@@ -1,0 +1,17 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.image {
+  margin: -24px 0;
+  padding: 0;
+  width: 100%;
+}
+
+.caption {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.8);
+}
