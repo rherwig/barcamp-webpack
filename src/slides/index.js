@@ -6,6 +6,7 @@ import Slide04 from './Slide04';
 import Slide05 from './Slide05';
 import Slide06 from './Slide06';
 import Slide07 from './Slide07';
+import Slide08 from './Slide08';
 
 export default [
     Slide00,
@@ -16,4 +17,5 @@ export default [
     Slide05,
     Slide06,
     Slide07,
+    Slide08,
 ];
